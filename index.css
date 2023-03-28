@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar 3 */
+
+body .Navbar3 {
+    box-sizing: border-box;
+    gap: 100px;
+}
+
+body .Navbar3 .Header {
+    background: #999999;
+    color: #ffffff;
+    display: flex;
+    gap: 1100px;
+    padding: 10px 80px;
+}
+
+body .Navbar3 .Nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 144px;
+}
+
+body .Navbar3 .Nav .Logo span {
+    align-items: center;
+    font-size: 60px;
+}
+
+body .Navbar3 .Nav .Buttons {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 16px;
+    width: 1000px;
+}
+
+body .Navbar3 .Nav .Buttons .Items{
+    display: flex;
+    margin: 0 0 0 700px;
+    gap: 50px;
+}
+
+body .Navbar3 .Nav .Buttons .Items p {
+    color: #393939;
+    width: 60px;
+}
+
+
+/* Footer */
+body .Footer {
+    align-items: center;
+    background: #242424;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body .Footer .Footer3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin: 50px 200px;
+}
+
+body .Footer .Footer3 .izquierda > span {
+    color: #999999;
+    font-size: 60px;
+}
+
+body .Footer .Footer3 .izquierda {
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 500px;
+}
+
+body .Footer .Footer3 .Plataformas {
+    align-content: start;
+    color: #999999;
+    text-align: center;
+}
+
+body .Footer .Footer3 .Plataformas .Beneficios-card {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+body .Footer .Footer3 .Plataformas .Beneficios-card span {
+    color: #999999;
+}
+
+body .Footer .Footer3 .derecha {
+    display: flex;
+    gap: 200px;
+}
+
+body .Footer .Footer3 .derecha .enlaces {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+body .Footer .Subutton {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 700px;
+    padding: 40px;
+    text-align: center;
+    width: 1500px;
+}
+
+body .Footer .Subutton .Subplataformas {
+    align-items: center;
+    color: #999999;
+    display: flex;
+    justify-content:space-between;
+    width: 150px;
+}
+
+body .Footer .Subutton .Boton {
+    background: #999999;
+    border: none;
+    color: #242424;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 16px 48px;
+}
+
+body .Footer .Copyright h5 {
+    color: #999999;
+    padding: 40px;
+    text-align: center;
+    width: 1500px;
+}
